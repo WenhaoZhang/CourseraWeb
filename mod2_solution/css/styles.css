@@ -3,13 +3,41 @@
 * {
   box-sizing: border-box;
 }
+
+body
+{
+  font-family: verdana,arial,helvetica,sans-serif;
+}
+
 h1 {
   margin-bottom: 15px;
+  text-align: center;
+  font-size: 175%;
 }
 
 p {
   margin: 16px;
-  margin-top: 40px;
+  margin-top: 60px;
+}
+
+.container {
+  background-color: gray;
+  border: 1px solid black;
+  width: 90%;
+  margin-left: 8px;
+  margin-right: 8px;
+  margin-bottom: 16px;
+}
+
+.sec-tag {
+  border: 1px solid black;
+  text-align: center;
+  float: right;
+  clear: both;
+  margin: 0;
+  margin-bottom: 8px;
+  padding: 5px;
+  font-size: 125%;
 }
 
 /* Simple Responsive Framework. */
@@ -44,47 +72,6 @@ p {
     float: left;
     width: 100%;
   }
-}
-
-.container {
-  background-color: gray;
-  border: 1px solid black;
-  width: 90%;
-  font-family: Helvetica;
-  margin-left: 8px;
-  margin-right: 8px;
-  margin-bottom: 16px;
-}
-
-#sec-tag-1 {
-  background-color: red;
-  border: 1px solid black;
-  text-align: center;
-  float: right;
-  clear: both;
-  margin: 0;
-  margin-bottom: 8px;
-  padding: 5px;
-}
-#sec-tag-2 {
-  background-color: green;
-  border: 1px solid black;
-  text-align: center;
-  float: right;
-  clear: both;
-  margin: 0;
-  margin-bottom: 8px;
-  padding: 5px;
-}
-#sec-tag-3 {
-  background-color: blue;
-  border: 1px solid black;
-  text-align: center;
-  float: right;
-  clear: both;
-  margin: 0;
-  margin-bottom: 8px;
-  padding: 5px;
 }
 
 </style>
