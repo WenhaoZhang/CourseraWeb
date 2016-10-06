@@ -1,0 +1,90 @@
+<style>
+/********** Base styles **********/
+* {
+  box-sizing: border-box;
+}
+h1 {
+  margin-bottom: 15px;
+}
+
+p {
+  margin: 16px;
+  margin-top: 40px;
+}
+
+/* Simple Responsive Framework. */
+.row {
+  width: 100%;
+}
+
+/********** Desktop **********/
+@media (min-width: 992px) {
+  .col-lg-4 {
+    float: left;
+    width: 33.33%;
+  }
+}
+
+/********** Tablet **********/
+@media (min-width: 768px) and (max-width: 991px) {
+  .col-md-6, .col-md-12 {
+    float: left;
+  }
+  .col-md-6 {
+    width: 50%;
+  }
+  .col-md-12 {
+    width: 100%;
+  }
+}
+
+/********** Mobile **********/
+@media (max-width: 767px) {
+  .col-sm-12 {
+    float: left;
+    width: 100%;
+  }
+}
+
+.container {
+  background-color: gray;
+  border: 1px solid black;
+  width: 90%;
+  font-family: Helvetica;
+  margin-left: 8px;
+  margin-right: 8px;
+  margin-bottom: 16px;
+}
+
+#sec-tag-1 {
+  background-color: red;
+  border: 1px solid black;
+  text-align: center;
+  float: right;
+  clear: both;
+  margin: 0;
+  margin-bottom: 8px;
+  padding: 5px;
+}
+#sec-tag-2 {
+  background-color: green;
+  border: 1px solid black;
+  text-align: center;
+  float: right;
+  clear: both;
+  margin: 0;
+  margin-bottom: 8px;
+  padding: 5px;
+}
+#sec-tag-3 {
+  background-color: blue;
+  border: 1px solid black;
+  text-align: center;
+  float: right;
+  clear: both;
+  margin: 0;
+  margin-bottom: 8px;
+  padding: 5px;
+}
+
+</style>
